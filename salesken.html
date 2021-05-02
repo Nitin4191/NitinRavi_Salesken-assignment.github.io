@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/audio-icon.svg">
+    <link rel="stylesheet" type="text/css" href="salesken.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>SalesKen Assignment</title>
+</head>
+
+<body>
+    <div>
+        <audio controls>
+            <source src="/assets/music/Lily Alan Walker Official Video.mp3">
+        </audio>
+    </div>
+    <div class="audio-player">
+        <canvas height="150" width="700vw"></canvas>
+        <div class="controls">
+            <input type="range" class="seekbar" style="width: 50vw">
+            <div>
+                <button class="play-pause">
+                    <span class="material-icons">
+                        play_arrow
+                    </span>
+                </button>
+                <input type="range" class="volume" style="float: right; margin-left: 10px;">
+                <span class="material-icons white" style="float: right; margin-left: 20px;">
+                    volume_down
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="salesken.js"></script>
+</body>
+
+</html>
