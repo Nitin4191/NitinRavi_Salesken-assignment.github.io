@@ -12,7 +12,7 @@ body, html {
     border: 1px solid black;
     height: 250px;
     border-radius: 10px;
-    background: url('/assets/images/music-background.jpg') no-repeat center;
+    background: url('./assets/images/music-background.jpg') no-repeat center;
     background-size: 800px 250px;
 }
 
